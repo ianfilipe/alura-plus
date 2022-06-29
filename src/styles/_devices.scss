@@ -1,0 +1,18 @@
+.devices {
+  text-align: center;
+
+  .title {
+    font-size: 48px;
+  }
+
+  .list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+
+    .list-item {
+      font-size: 32px;
+    }
+  }
+}

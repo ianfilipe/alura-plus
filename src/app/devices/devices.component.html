@@ -1,1 +1,9 @@
-<p>devices works!</p>
+<section class="devices">
+  <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+  <ul class="list">
+    <li *ngFor="let device of devices">
+      <img src="{{ device.image }}" alt="{{ device.imageAlt }}">
+      <h3 class="list-item">{{ device.name }}</h3>
+    </li>
+  </ul>
+</section>
