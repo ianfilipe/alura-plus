@@ -1,0 +1,38 @@
+.footer {
+  padding: 0 12em;
+  text-align: center;
+
+  .list {
+    margin: 2.5em 0 1.5em;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+    .link {
+      margin-left: 1em;
+
+      &:first-child {
+        margin-left: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: $white-primary;
+
+        &:hover {
+          color: $blue-primary;
+        }
+      }
+    }
+  }
+
+  .text {
+    font-size: 14px;
+    color: $grey-secondary;
+    margin: 2em 0;
+
+    &:last-child {
+      margin-bottom: 4em;
+    }
+  }
+}

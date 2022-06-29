@@ -8,6 +8,7 @@ import { PlatformsComponent } from './platforms/platforms.component';
 import { CombosComponent } from './combos/combos.component';
 import { DownloadComponent } from './download/download.component';
 import { DevicesComponent } from './devices/devices.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DevicesComponent } from './devices/devices.component';
     PlatformsComponent,
     CombosComponent,
     DownloadComponent,
-    DevicesComponent
+    DevicesComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
