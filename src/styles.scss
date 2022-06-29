@@ -11,3 +11,13 @@ body {
   background: $background;
   color: $white-primary;
 }
+
+.container {
+  height: 100vh;
+}
+
+.main {
+  background-image: url(assets/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
