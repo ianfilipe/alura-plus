@@ -1,16 +1,7 @@
 body {
   background: $background;
   color: $white-primary;
-}
-
-.container {
-  height: 100vh;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
-}
-
-.main {
-  background-image: url(../assets/images/Background.png);
-  background-repeat: no-repeat;
-  background-size: contain;
+  font-family: $font-family;
+  font-size: 16px;
+  font-weight: 400;
 }

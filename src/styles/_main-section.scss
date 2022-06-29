@@ -1,0 +1,18 @@
+.main {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  background-image: url(../assets/images/Background.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  .title {
+    font-size: 28px;
+    font-weight: 700;
+  }
+
+  .disclaimer {
+    font-size: 12px;
+    color: $grey-secondary;
+  }
+}
