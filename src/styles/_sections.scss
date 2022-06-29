@@ -1,0 +1,33 @@
+.sections {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+
+.section {
+  @extend .sections;
+  margin: 0 10em;
+
+  .container {
+    padding: 2em;
+  }
+
+  .image {
+    width: 80%;
+  }
+
+  .title {
+    font-size: 48px;
+    margin-bottom: 0.25em;
+  }
+
+  .subtitle {
+    color: $grey-secondary;
+  }
+
+  .button {
+    margin-top: 1em;
+    display: inline-block;
+  }
+}
