@@ -1,33 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'styles/reset';
 @import 'styles/variables';
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: $background;
-  color: $white-primary;
-}
-
-.container {
-  height: 100vh;
-}
-
-.main {
-  background-image: url(assets/images/Background.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-
-.container {
-  .button {
-    display: block;
-    background-color: $blue-primary;
-    border-radius: 8px;
-    padding: 1em;
-    color: $white-primary;
-  }
-}
+@import 'styles/base';
+@import 'styles/buttons';

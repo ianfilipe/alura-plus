@@ -1,0 +1,15 @@
+.button {
+  display: block;
+  border-radius: 8px;
+  padding: 1em;
+  color: $white-primary;
+}
+
+.button-primary {
+  background-color: $blue-primary;
+}
+
+.button-secondary {
+  background: transparent;
+  border: 1px solid $white-primary;
+}
